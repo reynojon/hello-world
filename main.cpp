@@ -1,5 +1,5 @@
 #include <iostream>
-#include <strong>
+#include <string>
 
 using std::cin;
 using std::cout;
