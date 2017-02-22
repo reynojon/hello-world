@@ -1,9 +1,15 @@
 #include <iostream>
+#include <strong>
 
-using std::cout
+using std::cin;
+using std::cout;
+using std::string;
 
 int main()
 {
-	cout << "Hello World!\n";
+	string name;
+	cout << "What is your Name?";
+	getline(cin, name);
+	cout << "Hello " << name << "!\n";
 	return 0;
 }
